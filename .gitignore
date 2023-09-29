@@ -129,5 +129,10 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+# Executables
+index-linux
+index-macos
+index-win.exe
+
 # Sound folder
 sound/

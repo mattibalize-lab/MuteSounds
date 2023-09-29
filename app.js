@@ -60,7 +60,12 @@ ${b}Note${r}: You might have a different language folder than ${b}enUS${r}
 if so, just move the ${b}Sound${r} folder to your language folder.
 
 ${b}If you experience any issues, report them on the GitHub repository:
-https://github.com/mattibalize-lab/MuteSounds`);
+https://github.com/mattibalize-lab/MuteSounds${r}\n`);
+
+      console.log("Press ${b}Enter${r} to exit...");
+      process.stdin.on("data", () => {
+        process.exit();
+      });
     })
     .catch((err) => {
       return console.error(err);
