@@ -1,0 +1,5 @@
+FizzleFireA
+FizzleFrostA
+FizzleShadowA
+FizzleHolyA
+FizzleNatureA
