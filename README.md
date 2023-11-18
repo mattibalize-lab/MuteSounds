@@ -1,12 +1,12 @@
 # MuteSounds
-[<img src="https://img.shields.io/github/downloads/mattibalize-lab/MuteSounds/latest/total">](https://github.com/mattibalize-lab/MuteSounds/releases/latest)
+[<img src="https://img.shields.io/github/downloads/mattibalize-lab/MuteSounds/1.1/total">](https://github.com/mattibalize-lab/MuteSounds/releases/1.1)
 
 _Working for patch **`3.3.5a`**!_
 
 1. Search for the [**sound**](https://www.wowhead.com/wotlk/sounds/) you'd like to mute
 
-![image](https://github.com/mattibalize-lab/AscMuteSounds/assets/38044816/5135a85a-7a95-49c1-ace1-d2d072d356d4)
-![image](https://github.com/mattibalize-lab/AscMuteSounds/assets/38044816/139f71cb-e5cf-40df-a372-ef364b3897b9)
+![1](https://github.com/mattibalize-lab/MuteSounds/assets/38044816/481a4fee-04dc-44c0-908a-54c71b3735b9)
+![2](https://github.com/mattibalize-lab/MuteSounds/assets/38044816/b37f65da-f53d-4717-afe4-ba7726ee1e82)
 
 2. Copy the specific sound variation _(or all of them)_, that you'd like to mute in-game and put them in your **`sounds.txt`** file
 3. Run the **`MuteSounds`** app
