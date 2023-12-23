@@ -1,7 +1,7 @@
 const fs = require("fs"),
   file = "sounds.txt",
-  path = require("path");
-const axios = require("axios");
+  path = require("path"),
+  axios = require("axios");
 
 if (fs.existsSync("Sound")) fs.rmSync("Sound", { recursive: true });
 fs.readFile(file, "utf8", (err, data) => {
@@ -15,8 +15,8 @@ fs.readFile(file, "utf8", (err, data) => {
   const sep = path.sep,
     b = "\x1b[1m",
     r = "\x1b[0m",
-    time = Date.now();
-  const promises = [];
+    time = Date.now(),
+    promises = [];
 
   sounds.forEach((snd) => {
     if (!snd) return sounds.splice(sounds.indexOf(snd), 1);
@@ -37,7 +37,10 @@ fs.readFile(file, "utf8", (err, data) => {
           fs.writeFileSync(filePath, "");
           fs.writeFileSync(
             filePath.slice(0, -3) + "wav",
-            "RIFF$   WAVEfmt \u0010   \u0001 \u0001 D¬  ˆX\u0001 \u0002 \u0010 data\r\n"
+            'RIFF$   WAVEfmt      +  "V    data    '.replace(
+              /(?<!fmt) /g,
+              "\x00"
+            )
           ); // empty .wav file
         })
         .catch((err) => {
