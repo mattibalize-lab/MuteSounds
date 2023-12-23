@@ -1,5 +1,5 @@
 # MuteSounds
-[<img src="https://img.shields.io/github/downloads/mattibalize-lab/MuteSounds/1.1/total">](https://github.com/mattibalize-lab/MuteSounds/releases/1.1)
+[<img src="https://img.shields.io/github/downloads/mattibalize-lab/MuteSounds/latest/total">](https://github.com/mattibalize-lab/MuteSounds/releases/latest)
 
 _Working for patch **`3.3.5a`**!_
 
