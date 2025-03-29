@@ -1,5 +1,6 @@
 # MuteSounds
 [<img src="https://img.shields.io/github/downloads/mattibalize-lab/MuteSounds/1.2/total">](https://github.com/mattibalize-lab/MuteSounds/releases/1.2)
+## Discontinued! Use [mutesound-python](https://github.com/xanthics/mutesound-python) by Xanthics instead. 
 
 _Working for patch **`3.3.5a`**!_
 
